@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+#carrousel {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    bottom: 4px;
+    left: 0;
+    padding: 15px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.controls span {
+    position: absolute;
+    top: 40%;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.next {
+    right: 0;
+}
